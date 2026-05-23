@@ -3,6 +3,13 @@
   "wallpaper": "https://bing.img.run/rand.php",
   "lives": [],
   "sites": [
+{
+    "key": "Nostr测试",
+    "name": "Nostr推荐测试",
+    "type": 3,
+    "api": "csp_Nostr",
+    "homePage": "https://www.252035.xyz/xs/tvbox/nostr.html"
+  },
     {
       "key": "Tg | 豆瓣",
       "name": "Tg | 豆瓣",
