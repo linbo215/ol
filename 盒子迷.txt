@@ -5,7 +5,7 @@
   "sites": [
     {
       "key": "豆瓣",
-      "name": "茶杯狐2",
+      "name": "公众号【盒子迷】",
       "type": 3,
       "api": "csp_Douban",
       "searchable": 0
@@ -18,14 +18,15 @@
       "playerType": 2,
       "searchable": 0
     },
-    {
-      "key": "config",
-      "name": "🐼┃配置┃中心",
-      "type": 3,
-      "api": "csp_Config",
-      "playerType": 2
-    },
         {
+      "key": "荐片",
+      "name": "🎬┃荐片┃影视",
+      "api": "csp_Jianpian",
+      "type": 3,
+      "playerType": "2",
+      "ext": "https://api.ztcgi.com"
+    },
+    {
       "key": "csp_SaoHuo",
       "name": "🔥┃火火┃影视",
       "type": 3,
@@ -50,6 +51,13 @@
       "quickSearch": 1,
       "filterable": 1,
       "ext": "https://www.czzy89.com"
+    },
+    {
+      "key": "config",
+      "name": "🐼┃配置┃中心",
+      "type": 3,
+      "api": "csp_Config",
+      "playerType": 2
     },
     {
       "key": "csp_FeiMaoUC",
@@ -184,14 +192,6 @@
       "ext": "https://vip.wwgz.cn:5200"
     },
     {
-      "key": "荐片",
-      "name": "🎬┃荐片┃影视",
-      "api": "csp_Jianpian",
-      "type": 3,
-      "playerType": "2",
-      "ext": "https://api.ztcgi.com"
-    },
-    {
       "key": "csp_SP360",
       "name": "📺┃360┃官源",
       "type": 3,
@@ -324,7 +324,7 @@
       "key": "儿童",
       "name": "📚┃儿童┃启蒙",
       "type": 3,
-      "api": "https://gh-proxy.net/https://raw.githubusercontent.com/fantaiying7/EXT/refs/heads/master/drpy2.min.js",
+      "api": "https://盒子迷.top/api/drpy2.min.js",
       "searchable": 0,
       "quickSearch": 0,
       "changeable": 0,
@@ -332,7 +332,7 @@
         "type": "rect",
         "ratio": 1.597
       },
-      "ext": "https://gh-proxy.net/https://raw.githubusercontent.com/fantaiying7/EXT/refs/heads/master/%E5%85%94%E5%B0%8F%E8%B4%9D.js"
+      "ext": "https://盒子迷.top/js/兔小贝.js"
     },
     {
       "key": "csp_少儿",
@@ -504,16 +504,13 @@
     {
       "name": "Kimentanm",
       "type": 0,
-      "url": "https://raw.githubusercontent.com/Kimentanm/aptv/master/m3u/iptv.m3u",
-      "playerType": 2
+      "url": "https://盒子迷.top/lives/Kimentanm.txt"
     },
     {
       "name": "develop202",
       "type": 0,
-      "url": "https://gh.llkk.cc/http://raw.githubusercontent.com/develop202/migu_video/refs/heads/master/interface.txt",
-      "playerType": 2,
-      "epg": "http://diyp5.112114.xyz/?ch={name}&date={date}",
-      "logo": "https://epg.112114.xyz/logo/{name}.png"
+      "url": "https://盒子迷.top/lives/develop202.txt",
+      "epg": "http://diyp5.112114.xyz/?ch={name}&date={date}"
     }
   ],
   "headers": [
