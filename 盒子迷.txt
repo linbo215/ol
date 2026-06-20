@@ -5,7 +5,7 @@
   "sites": [
     {
       "key": "豆瓣",
-      "name": "公众号【盒子迷】",
+      "name": "新公众号：盒子迷MAX",
       "type": 3,
       "api": "csp_Douban",
       "searchable": 0
@@ -17,6 +17,13 @@
       "api": "csp_YGP",
       "playerType": 2,
       "searchable": 0
+    },
+    {
+      "key": "config",
+      "name": "🐼┃配置┃中心",
+      "type": 3,
+      "api": "csp_Config",
+      "playerType": 2
     },
         {
       "key": "荐片",
@@ -39,24 +46,6 @@
       "name": "🍉┃瓜子┃影视",
       "type": 3,
       "api": "csp_Gz360",
-      "playerType": 2
-    },
-    {
-      "key": "厂长",
-      "name": "🏭┃厂长┃影视",
-      "type": 3,
-      "playerType": "2",
-      "api": "csp_Czsapp",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "https://www.czzy89.com"
-    },
-    {
-      "key": "config",
-      "name": "🐼┃配置┃中心",
-      "type": 3,
-      "api": "csp_Config",
       "playerType": 2
     },
     {
@@ -85,13 +74,11 @@
       "filterable": 1,
       "ext": {
         "site_urls": [
-          "http://xiaocge.fun",
+          "http://tvpanpan.site",
           "http://feimo.fun",
-          "http://www.labi88.sbs",
-          "http://fmao.site",
-          "http://fmao.shop",
           "http://xiaocgege.shop",
-          "http://www.xiaocgege.shop"
+          "http://www.xiaocgege.shop",
+          "https://www.xiaocge.fun"
         ],
         "threadinfo": {
           "chunksize": 512,
@@ -108,12 +95,11 @@
       "filterable": 1,
       "ext": {
         "site_urls": [
+          "https://www.zhizhen8.click",
           "https://pan.mihdr.top",
           "https://www.zhizhen1.top",
           "https://www.mihdr.top",
-          "https://www.miqk.cc",
-          "https://www.zhizhenpan.com",
-          "https://www.zhizhen8.click"
+          "https://www.miqk.cc"
         ],
         "url_key": "Netfixtv2",
         "threadinfo": {
@@ -190,6 +176,18 @@
       "type": 3,
       "api": "csp_Wwys",
       "ext": "https://vip.wwgz.cn:5200"
+    },
+
+    {
+      "key": "厂长",
+      "name": "🏭┃厂长┃影视",
+      "type": 3,
+      "playerType": "2",
+      "api": "csp_Czsapp",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "https://www.czzy89.com"
     },
     {
       "key": "csp_SP360",
@@ -324,7 +322,7 @@
       "key": "儿童",
       "name": "📚┃儿童┃启蒙",
       "type": 3,
-      "api": "https://盒子迷.top/api/drpy2.min.js",
+      "api": "https://gh-proxy.net/https://raw.githubusercontent.com/fantaiying7/EXT/refs/heads/master/drpy2.min.js",
       "searchable": 0,
       "quickSearch": 0,
       "changeable": 0,
@@ -332,7 +330,7 @@
         "type": "rect",
         "ratio": 1.597
       },
-      "ext": "https://盒子迷.top/js/兔小贝.js"
+      "ext": "https://gh-proxy.net/https://raw.githubusercontent.com/fantaiying7/EXT/refs/heads/master/%E5%85%94%E5%B0%8F%E8%B4%9D.js"
     },
     {
       "key": "csp_少儿",
@@ -504,13 +502,16 @@
     {
       "name": "Kimentanm",
       "type": 0,
-      "url": "https://盒子迷.top/lives/Kimentanm.txt"
+      "url": "https://raw.githubusercontent.com/Kimentanm/aptv/master/m3u/iptv.m3u",
+      "playerType": 2
     },
     {
       "name": "develop202",
       "type": 0,
-      "url": "https://盒子迷.top/lives/develop202.txt",
-      "epg": "http://diyp5.112114.xyz/?ch={name}&date={date}"
+      "url": "https://gh.llkk.cc/http://raw.githubusercontent.com/develop202/migu_video/refs/heads/master/interface.txt",
+      "playerType": 2,
+      "epg": "http://diyp5.112114.xyz/?ch={name}&date={date}",
+      "logo": "https://epg.112114.xyz/logo/{name}.png"
     }
   ],
   "headers": [

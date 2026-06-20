@@ -16,7 +16,7 @@
     },
 	{
       "key": "Doubana",
-      "name": "🐮【更新日期:20260601】🐮",
+      "name": "🐮【更新日期:20260619】🐮",
       "type": 3,
       "api": "csp_DoubanGuard",
       "searchable": 0,
@@ -95,14 +95,6 @@
       "timeout": 120
     },
     {
-      "key": "Wexsayangziyuan",
-      "name": "💓撒仰┃4K💓",
-      "type": 3,
-      "api": "csp_Wexsayangziyuan",
-      "searchable": 1,
-      "changeable": 1
-    },
-    {
       "key": "Wexmuougg",
       "name": "💓木偶┃4K💓",
       "type": 3,
@@ -115,14 +107,6 @@
       "name": "💓双星┃4K💓",
       "type": 3,
       "api": "csp_WexshuangzixingGuard",
-      "searchable": 1,
-      "changeable": 1
-    },
-	{
-      "key": "WexXuexi",
-      "name": "💓综合┃4K💓",
-      "type": 3,
-      "api": "csp_WexXuexiGuard",
       "searchable": 1,
       "changeable": 1
     },
@@ -393,30 +377,6 @@
       "changeable": 0
     },
     {
-      "key": "Wexxifan",
-      "name": "🤡稀饭┃动漫🤡",
-      "type": 3,
-      "api": "csp_WexxifanGuard",
-      "searchable": 1,
-      "changeable": 1
-    },
-    {
-      "key": "WexDm84",
-      "name": "🤡巴士┃动漫🤡",
-      "type": 3,
-      "api": "csp_WexYingGuard",
-      "searchable": 1,
-      "changeable": 1
-    },
-    {
-      "key": "WexYsj",
-      "name": "🤡异界┃动漫🤡",
-      "type": 3,
-      "api": "csp_WexYsjGuard",
-      "searchable": 1,
-      "changeable": 1
-    },
-    {
       "key": "自定义",
       "name": "🥇全能┃DIY🥇",
       "type": 3,
@@ -603,14 +563,6 @@
       }
     },
     {
-      "key": "WexTJso",
-      "name": "🎠TJ┃综合🎠",
-      "type": 3,
-      "api": "csp_WexTJsoGuard",
-      "searchable": 1,
-      "changeable": 0
-    },
-    {
       "key": "Wextyso",
       "name": "🎠给力┃天逸🎠",
       "type": 3,
@@ -627,14 +579,6 @@
       "changeable": 0
     },
     {
-      "key": "WexAiPanGuard",
-      "name": "🎠给力┃综合🎠",
-      "type": 3,
-      "api": "csp_WexAiPanGuard",
-      "searchable": 1,
-      "changeable": 0
-    },
-    {
       "key": "WexHaiYinsoGuard",
       "name": "🎠海音┃综合🎠",
       "type": 3,
@@ -647,14 +591,6 @@
       "name": "🎠九七┃综合🎠",
       "type": 3,
       "api": "csp_Wex97pansoGuard",
-      "searchable": 1,
-      "changeable": 0
-    },
-    {
-      "key": "WexZhaoPansoGuard",
-      "name": "🎠找盘┃综合🎠",
-      "type": 3,
-      "api": "csp_WexZhaoPansoGuard",
       "searchable": 1,
       "changeable": 0
     },
